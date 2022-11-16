@@ -1,16 +1,16 @@
-# Encabezado 1
-## Encabezado 2
-### Encabezado 3
-#### Encabezado 4
-##### Encabezado 5
-###### Encabezado 6
+# Simulación Proceso - Registro Asesoría
+## Utilizando el software: Bizagui
 
-Este es un ejemplo de texto que da entrada a una lista genérica de elementos:
-- Elemento 1
-- Elemento 2
-- Elemento 3
-Este es un ejemplo de texto que da entrada a una lista numerada:
-1. Elemento 1
-2. Elemento 2
-3. Elemento 3
-Al texto en Markdown puedes añadirle formato como **negrita** o *cursiva* de una manera muy sencilla.
+Se debe permitir entender la lógica de negocio para ejecución de las tareas implícitas en el formato de registro en asesoría.
+
+Skateholders:
+
+- **Alumno**
+  - Persona que solicita una asesría sobre un tema a un maestro. Requiere de un formato de registro donde llenará los campos correspondientes.
+- **Maestro**
+  - Persona que ofrece sus servicios para explicar el tema solicitado por el alumno y otorga el formato de registro, mismo que completará mas tarde.
+
+Subprocesos:
+
+- *El alumno escribe los campos del formato de registro.*
+- *El maestro realiza los cálculos corespondientes y completa el formato.*

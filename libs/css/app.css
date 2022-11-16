@@ -1685,7 +1685,7 @@ td {
 /* Default Link Styles */
 /* line 152, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 a {
-  color: #A34C00;
+  color: #0e48c5;
   text-decoration: none;
   line-height: inherit;
 }
@@ -3449,7 +3449,7 @@ table ul {
 
 /* line 162, ../../sass/_export.scss */
 .biz-ex-logo {
-  background-color: #FAFAFA;
+  background-color: #7a7a7a63;
   border-bottom: 1px solid #e8e8e8;
 }
 @media (min-width: 1024px) {
@@ -3487,7 +3487,7 @@ table ul {
 
 /* line 189, ../../sass/_export.scss */
 .biz-ex-top-nav {
-  background-color: #FAFAFA;
+  background-color: #7a7a7a63;
   padding: 1em 0;
 }
 
@@ -3636,12 +3636,12 @@ table ul {
   width: 166px;
   height: 55px;
   margin: 0 auto;
-  background: url("../img/biz-ex-logo.png") no-repeat;
+  background: url("../img/biz-ex-logo.png.png") no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* line 304, ../../sass/_export.scss */
   .biz-ex-logo-img {
-    background: url("../img/biz-ex-logo-2x.png") no-repeat;
+    background: url("../img/biz-ex-logo-2x.png.png") no-repeat;
   }
 }
 
@@ -7123,3 +7123,5 @@ div.biz-ex-poly-inside:hover {
   background-color: transparent;
   background-image: url(../img/sq-overlay.png);
 }
+
+#footer { height: 100px; }
